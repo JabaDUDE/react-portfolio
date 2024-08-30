@@ -9,7 +9,7 @@ import About from './components/pages/about'
 import Projects from './components/pages/projects'
 import Contact from './components/pages/contact'
 
-
+//TODO:Perhaps put the Router into a header component and then input here
 function App() {
   return (
     <Router>
