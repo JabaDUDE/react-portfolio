@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
 
 function Home() {
   return (
     <div>
-      <h1>Welcome to my website!</h1>
+      <h1 className="text-lg">Welcome to my website!</h1>
       <h2>I'm Dakota!</h2>
-      <h3>Chronically curious and forever knowledge seeking</h3>
+      <h3 className="text-lg">Chronically curious and forever knowledge seeking What will I learn today?</h3>
     </div>
   )
 }
