@@ -30,7 +30,6 @@ export default function Navbar(){
         }
     ]
 
-//TODO: fix mobile design routing so it works
     return(
         <>
             <nav className="navbar">
