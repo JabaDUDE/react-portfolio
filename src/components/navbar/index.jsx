@@ -69,11 +69,11 @@ export default function Navbar(){
                         {/*Mobile Menu Items*/}
 
                         {navItems.map(item => (
-                            <li key={item.id}  className='p-4 border-b rounded-xl cursor-pointer border-gray-600 hover:bg-[#51ceb0] hover:text-black'>
-                            <NavLink to={item.to}>
+                            <NavLink to={item.to} key={item.id} onClick={handleClick}>
+                            <li className='p-4 border-b rounded-xl cursor-pointer border-gray-600 hover:bg-[#51ceb0] hover:text-black'>
                                 {item.text}
-                                </NavLink>
                             </li>
+                                </NavLink>
                         ))}
                     </ul>
                 </div>
