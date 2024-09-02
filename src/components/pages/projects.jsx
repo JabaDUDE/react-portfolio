@@ -1,10 +1,10 @@
 import data from '../../assets/data.json';
 
-function projects() {
+function Projects() {
   console.log(data)
   return (
     <div>projects</div>
   )
 }
 
-export default projects
+export default Projects
