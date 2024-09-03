@@ -46,7 +46,12 @@ export default function Navbar(){
                     <ul className='flex max-md:hidden'>
                             {navItems.map(item => (
                                 <li key={item.id} className='text-white'>
-                                    <NavLink to={item.to} className='p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300  text-white'>
+                                    <NavLink to={item.to} 
+                                    className={({ isActive }) => 
+                                    isActive ? 'p-4 rounded-xl m-2 cursor-pointer duration-300  text-white bg-[#00df9a]' 
+                                    : 'hover:bg-[#00df9a] p-4 rounded-xl m-2 cursor-pointer duration-300 text-white'
+                                    }
+                                    >
                                         {item.text}
                                     </NavLink>
                                 </li>
