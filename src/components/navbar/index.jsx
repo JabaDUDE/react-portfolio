@@ -30,11 +30,13 @@ export default function Navbar(){
         }
     ]
 
+    const style = { color: 'black' }
+
     return(
         <>
             <nav className="navbar">
                 <div className="bg-black flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-                    <NavLink to="/" className="flex items-center text-3xl">
+                    <NavLink to="/" className="flex items-center text-3xl hover:text-[#00df9a]">
                         <span>D.K.</span>
                         <span>
                             <HiCodeBracketSquare />
@@ -60,7 +62,7 @@ export default function Navbar(){
 
                     {/*Mobile Navigation*/}
 
-                    <div onClick={handleClick} className='block md:hidden'>{nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}</div>
+                    <div onClick={handleClick} className='block md:hidden hover:text-[#00df9a] cursor-pointer'>{nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}</div>
                     {/*Mobile Menu*/}
                     <ul className={nav 
                     ? 'fixed md:hidden left-0 top-0 w-[60%] h-full border-r border-r-gray-900 duration-500 ease-in-out bg-black' 
