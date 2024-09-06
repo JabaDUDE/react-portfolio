@@ -2,7 +2,7 @@ import img from '../../assets/self/flower-king.jpg'
 
 function About() {
   return (
-    <div className='flex max-w-screen-lg'>
+    <div className='flex max-w-screen-lg h-screen m-auto items-center'>
       <div className='md:m-10 m-5'>
         <div className='md:float-left md:mr-5'>
           <img src={img} alt='photo of myself' className='w=[150px] h-[275px] rounded-xl m-auto' />
