@@ -2,7 +2,7 @@
 
 function Home() {
   return (
-    <div className="bg-black text-white h-full flex flex-col items-center justify-center">
+    <div className="bg-black text-white h-screen flex flex-col items-center justify-center">
       <div className='text-left'>
         <h1 className='text-7xl'>I'm Dakota!</h1>
         <h3 className="text-lg">Chronically curious and forever knowledge seeking. What will I learn today?</h3>

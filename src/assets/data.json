@@ -2,31 +2,31 @@
     "languages": [
         {
             "name": "Javascript",
-            "image": "icons/js.png"
+            "image": "src/assets/icons/js.png"
         },
         {
             "name": "HTML",
-            "image": "icons/html-5.png"
+            "image": "src/assets/icons/html-5.png"
         },
         {
             "name": "CSS",
-            "image": "icons/css-3.png"
+            "image": "src/assets/icons/css-3.png"
         },
         {
             "name": "Python",
-            "image": "icons/python.png"
+            "image": "src/assets/icons/python.png"
         },
         {
             "name": "ReactJS",
-            "image": "icons/react.png"
+            "image": "src/assets/icons/react.png"
         },
         {
             "name": "Bootstrap",
-            "image": "icons/bootstrap.png"
+            "image": "src/assets/icons/bootstrap.png"
         },
         {
             "name": "TailwindCSS",
-            "image": "icons/tailwind.png"
+            "image": "src/assets/icons/tailwind.png"
         }
     ],
     "projects": [
