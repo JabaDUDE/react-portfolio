@@ -32,24 +32,28 @@
     "projects": [
         {
             "name": "Personal Site",
+            "technologies": "ReactJS, TailwindCSS, Vite",
             "image": "images/personal-site.png",
             "github": "https://github.com/JabaDUDE/react-personal",
             "link": "jabadude.github.io/react-personal/"
         },
         {
             "name": "Random Quote Generator",
+            "technologies": "ReactJS, Vite, CSS",
             "image": "images/quote-generator.png",
             "github": "https://github.com/JabaDUDE/react-quote-generator",
             "link": "stoic-quote-generator-five.vercel.app"
         },
         {
             "name": "BlackJack",
+            "technologies": "HTML, CSS, JavaScript",
             "image": "images/blackjack.png",
             "github": "https://github.com/JabaDUDE/blackjack-site",
             "link": "https://jabadude.github.io/blackjack-site/"
         },
         {
             "name": "ToDo App",
+            "technologies": "ReactJS, TailwindCSS, Vite, Jest",
             "image": "images/react-todo.png",
             "github": "https://github.com/JabaDUDE/react-todo",
             "link": "react-todo-five-opal.vercel.app"

@@ -6,7 +6,7 @@ import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } 
 import Home from './components/pages/index'
 import About from './components/pages/About.jsx'
 import Contact from './components/pages/Contact.jsx'
-import Projects from './components/pages/Projects.jsx'
+import Projects from './components/pages/projects/Projects.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(

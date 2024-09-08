@@ -1,4 +1,5 @@
-import data from '../../assets/data.json';
+import data from '../../../../src/assets/data.json';
+import { Card } from './Card'
 
 function Projects() {
 
