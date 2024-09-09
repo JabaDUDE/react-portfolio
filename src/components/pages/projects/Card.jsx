@@ -1,5 +1,5 @@
 
-export default function Card({project: {name, technologies, image, link, github}}) {
+export default function Card({ project: {name, technologies, image, link, github} }) {
   return (
     <div className='max-w-45 max-h-64 border-2 border-white'>
     <img src={image} alt={name} className='object-contain float-left h-full' width={150} />
