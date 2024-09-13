@@ -6,7 +6,7 @@ function Projects() {
   const Project = data.projects
 
   return (
-    <div>
+    <div className='min-h-screen'>
     
       <h1 className='text-center text-xl'>Technologies I Use:</h1>
 
