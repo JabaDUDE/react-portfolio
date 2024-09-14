@@ -35,7 +35,7 @@
             "technologies": "ReactJS, TailwindCSS, Vite",
             "image": "src/assets/images/personal-site.png",
             "github": "https://github.com/JabaDUDE/react-personal",
-            "link": "jabadude.github.io/react-personal/",
+            "link": "https://jabadude.github.io/react-personal/",
             "description": "Personal website that shows all my favorite TV Shows, games, and books."
         },
         {
@@ -43,7 +43,7 @@
             "technologies": "ReactJS, Vite, CSS",
             "image": "src/assets/images/quote-generator.png",
             "github": "https://github.com/JabaDUDE/react-quote-generator",
-            "link": "stoic-quote-generator-five.vercel.app",
+            "link": "https://stoic-quote-generator-five.vercel.app",
             "description": "Random quote generator of stoic quotes from stoic authors."
         },
         {
@@ -59,7 +59,7 @@
             "technologies": "ReactJS, TailwindCSS, Vite, Jest",
             "image": "src/assets/images/react-todo.png",
             "github": "https://github.com/JabaDUDE/react-todo",
-            "link": "react-todo-five-opal.vercel.app",
+            "link": "https://react-todo-five-opal.vercel.app/",
             "description": "A simple ToDo app where you can mark items as complete or just delete them."
         }
     ]

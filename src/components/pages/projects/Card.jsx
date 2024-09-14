@@ -1,3 +1,22 @@
+import styled from 'styled-components'
+
+const StyledLink = styled.a`
+background-color: #00df9a;
+text-color: white;
+padding: 0.5rem 1rem 0.5rem;
+border-radius: 0.25rem;
+&:hover {
+  background-color: rgb(34 197 94);
+  }
+`
+const Button = ({ link, text }) => {
+  return (
+    <StyledLink href={link} aria-label={text} target="_blank" rel="noreferrer">
+      {text}
+    </StyledLink>
+  );
+}
+
 
 export default function Card({ project: {name, technologies, image, link, github, description} }) {
   return (
@@ -7,9 +26,9 @@ export default function Card({ project: {name, technologies, image, link, github
         <h1 className='text-gray-500 font-bold tracking-widest mb-0 uppercase'>{name}</h1>
         <h3 className='font-bold mt-0'>Made with: {technologies}</h3>
         <p>{description}</p>
-        <div className='flex gap-4 justify-center mb-1'>
-            <button className='bg-[#00df9a] hover:bg-green-500 text-white px-4 py-2 inline-block mt-4 rounded' href={link}>Live Site</button>
-            <button className='bg-[#00df9a] hover:bg-green-500 text-white px-4 py-2 inline-block mt-4 rounded' href={github}>Github</button>
+        <div className='flex gap-4 justify-center mb-1 mt-2 self-end'>
+          <Button link={link} text='Live Site' />
+          <Button link={github} text='Github' />
         </div>
     </div>
     </div>
