@@ -26,7 +26,7 @@ export default function Card({ project: {name, technologies, image, link, github
         <h1 className='text-gray-500 font-bold tracking-widest mb-0 uppercase'>{name}</h1>
         <h3 className='font-bold mt-0'>Made with: {technologies}</h3>
         <p>{description}</p>
-        <div className='flex gap-4 justify-center mb-1 mt-2 self-end'>
+        <div className='flex gap-4 justify-center my-3 self-end'>
           <Button link={link} text='Live Site' />
           <Button link={github} text='Github' />
         </div>
