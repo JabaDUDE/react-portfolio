@@ -32,7 +32,8 @@
     "projects": [
         {
             "name": "Personal Site",
-            "technologies": "ReactJS, TailwindCSS, Vite",
+            "technologies": ["ReactJS", "TailwindCSS", "Vite"],
+            "technology": "ReactJS, TailwindCSS, Vite",
             "image": "src/assets/images/personal-site.png",
             "github": "https://github.com/JabaDUDE/react-personal",
             "link": "https://jabadude.github.io/react-personal/",
@@ -40,7 +41,8 @@
         },
         {
             "name": "Random Quote Generator",
-            "technologies": "ReactJS, Vite, CSS",
+            "technologies": ["ReactJS", "Vite", "CSS"],
+            "technology": "ReactJS, CSS, Vite",
             "image": "src/assets/images/quote-generator.png",
             "github": "https://github.com/JabaDUDE/react-quote-generator",
             "link": "https://stoic-quote-generator-five.vercel.app",
@@ -48,7 +50,8 @@
         },
         {
             "name": "BlackJack",
-            "technologies": "HTML, CSS, JavaScript",
+            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technology": "HTML, CSS, Javascript",
             "image": "src/assets/images/blackjack.png",
             "github": "https://github.com/JabaDUDE/blackjack-site",
             "link": "https://jabadude.github.io/blackjack-site/",
@@ -56,7 +59,8 @@
         },
         {
             "name": "ToDo App",
-            "technologies": "ReactJS, TailwindCSS, Vite, Jest",
+            "technologies": ["ReactJS", "TailwindCSS", "Vite", "Jest"],
+            "technology": "ReactJS, TailwindCSS, Vite, Jest",
             "image": "src/assets/images/react-todo.png",
             "github": "https://github.com/JabaDUDE/react-todo",
             "link": "https://react-todo-five-opal.vercel.app/",

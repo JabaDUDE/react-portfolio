@@ -6,7 +6,7 @@ function Projects() {
   const Project = data.projects
 
   return (
-    <div className='min-h-screen'>
+    <div className='flex flex-col'>
     
       <h1 className='text-center text-xl'>Technologies I Use:</h1>
 
@@ -18,9 +18,9 @@ function Projects() {
         })}
       </div>
 
-      <h1 className='text-center text-xl'>Projects I'm Proud Of:</h1>
+      <h1 className='text-center text-xl'>My Favorite Projects:</h1>
 
-      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 place-items-center gap-4 my-3 mx-auto p-4 items-stretch'>
+      <div className='flex flex-wrap justify-center gap-4 my-3 mx-auto p-4 items-stretch'>
         {Project.map((project, index) => {
           return <Card project={project} key={index} />
         })}

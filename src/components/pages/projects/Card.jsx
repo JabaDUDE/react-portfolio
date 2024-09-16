@@ -18,15 +18,15 @@ const Button = ({ link, text }) => {
 }
 
 
-export default function Card({ project: {name, technologies, image, link, github, description} }) {
+export default function Card({ project: {name, technology, image, link, github, description} }) {
   return (
-    <div className='bg-white rounded-xl w-80 flex flex-col'>
+    <div className='bg-slate-200 rounded-xl w-80 flex flex-col'>
     <img src={image} alt={name} className='w-full h-48 rounded-t-xl mb-1' />
     <div className='text-black px-2'>
         <h1 className='text-gray-500 font-bold tracking-widest mb-0 uppercase'>{name}</h1>
-        <h3 className='font-bold mt-0'>Made with: {technologies}</h3>
+        <h3 className='font-bold mt-0'>Made with: {technology} </h3> 
         <p>{description}</p>
-        <div className='flex gap-4 justify-center my-3 self-end'>
+        <div className='flex gap-4 my-3 justify-center'>
           <Button link={link} text='Live Site' />
           <Button link={github} text='Github' />
         </div>
