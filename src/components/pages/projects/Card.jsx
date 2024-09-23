@@ -23,7 +23,7 @@ export default function Card({ project: {name, technologies, image, link, github
     <div>
     <div>
       <h2 className='text-center text-[#00df9a] text-3xl'>{name}</h2>
-      <div className='my-2 text-center'>
+      <div className='my-4 flex justify-center gap-4 text-black'>
         <Button link={link} text='Live Site'/>
         <Button link={github} text='Github' />
       </div>
@@ -37,7 +37,7 @@ export default function Card({ project: {name, technologies, image, link, github
           <div className='text-[#fbfbfb] my-2'>
             <p>{description}</p>
           </div>
-          <div className='text-bold'>Technologies:</div>
+          <div className='font-bold'>Technologies:</div>
           <ul>
             {technologies.map((item, index) => (
               <li key={index}>{item}</li>
