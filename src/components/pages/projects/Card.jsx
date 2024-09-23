@@ -18,18 +18,33 @@ const Button = ({ link, text }) => {
 }
 
 
-export default function Card({ project: {name, technology, image, link, github, description} }) {
+export default function Card({ project: {name, technologies, image, link, github, description} }) {
   return (
-    <div className='bg-slate-200 rounded-xl w-80 flex flex-col'>
-    <img src={image} alt={name} className='w-full h-48 rounded-t-xl mb-1' />
-    <div className='text-black px-2'>
-        <h1 className='text-gray-500 font-bold tracking-widest mb-0 uppercase'>{name}</h1>
-        <h3 className='font-bold mt-0'>Made with: {technology} </h3> 
-        <p>{description}</p>
-        <div className='flex gap-4 my-3 justify-center'>
-          <Button link={link} text='Live Site' />
-          <Button link={github} text='Github' />
+    <div>
+    <div>
+      <h2 className='text-center text-[#00df9a] text-3xl'>{name}</h2>
+      <div className='my-4 flex justify-center gap-4 text-black'>
+        <Button link={link} text='Live Site'/>
+        <Button link={github} text='Github' />
+      </div>
+      <div className='min-h-[30vh] flex flex-wrap'>
+        <div className='w-full lg:w-1/2 p-5 bg-[#1a1a1a]'>
+          <div className='min-h-full min-w-full'>
+            <img src={image} alt={name} />
+          </div>
         </div>
+        <div className='w-full lg:w-1/2 p-5 bg-[#4c5666]'>
+          <div className='text-[#fbfbfb] my-2'>
+            <p>{description}</p>
+          </div>
+          <div className='font-bold'>Technologies:</div>
+          <ul>
+            {technologies.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
     </div>
     </div>
   )

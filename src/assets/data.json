@@ -37,7 +37,7 @@
             "image": "src/assets/images/personal-site.png",
             "github": "https://github.com/JabaDUDE/react-personal",
             "link": "https://jabadude.github.io/react-personal/",
-            "description": "Personal website that shows all my favorite TV Shows, games, and books."
+            "description": "Personal website that shows all my favorite TV Shows, games, and books that I update regularly. This was one of my first React projects that I created and am extremely proud of. The cards zoom in and give a brief description when the user hovers the cursor over the card and even gives a link to a place the user can learn more. It's a great project that shows a little bit about me."
         },
         {
             "name": "Random Quote Generator",
@@ -46,16 +46,16 @@
             "image": "src/assets/images/quote-generator.png",
             "github": "https://github.com/JabaDUDE/react-quote-generator",
             "link": "https://stoic-quote-generator-five.vercel.app",
-            "description": "Random quote generator of stoic quotes from stoic authors."
+            "description": "Random quote generator of stoic quotes from stoic authors. There was a period where I read a few stoic books to try to help me gain perspective on life. I thought it would be really awesome to create a website that gives the user random stoic quotes from various sources. It is a simple app but I added a little dynamic to the button that starts off by saying 'Click Here' then changes to 'One More!'."
         },
         {
             "name": "BlackJack",
-            "technologies": ["HTML", "CSS", "JavaScript"],
+            "technologies": ["HTML", "CSS", "JavaScript", "API"],
             "technology": "HTML, CSS, Javascript",
             "image": "src/assets/images/blackjack.png",
             "github": "https://github.com/JabaDUDE/blackjack-site",
             "link": "https://jabadude.github.io/blackjack-site/",
-            "description": "Simple game vs a computer to get as close to 21 as possible without going over."
+            "description": "Simple game vs a computer to get as close to 21 as possible without going over. This was the most difficult game I built with vanilla JavaScript, HTML, and CSS. It required working heavily with the deckofcards API and keeping track, and comparing, numbers between the player and the computer. The most difficult challenge of this game is the Ace, which can either be a 1 or 11 depending on the player/computer's total."
         },
         {
             "name": "ToDo App",
@@ -64,7 +64,7 @@
             "image": "src/assets/images/react-todo.png",
             "github": "https://github.com/JabaDUDE/react-todo",
             "link": "https://react-todo-five-opal.vercel.app/",
-            "description": "A simple ToDo app where you can mark items as complete or just delete them."
+            "description": "A simple ToDo app where you can mark items as complete or just delete them. I'm proud of how this one turned out because when something is marked as complete, it gets moved to a different list with the string crossed out; however, the user has the option to also delete the task if it was a mistake or not what they wanted to input. That said, the one downfall of this application is that once the page refreshes, everything gets erased. It does not get stored in localstorage... yet."
         }
     ]
 }
