@@ -22,11 +22,6 @@ export default function Navbar(){
             id: 3,
             text: 'My Projects',
             to: '/projects'
-        },
-        {
-            id: 4,
-            text: 'Contact',
-            to: '/contact'
         }
     ]
 
