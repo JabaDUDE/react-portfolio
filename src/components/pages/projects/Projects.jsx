@@ -22,7 +22,7 @@ function Projects() {
 
       <div className='flex flex-col justify-center gap-4 my-3 mx-auto p-4 items-stretch'>
         {Project.map((project, index) => {
-          return <Card project={project} key={index} />
+          return <Card project={project} key={index} alternate={index % 2 == 0}/>
         })}
       </div>
 

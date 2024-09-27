@@ -18,7 +18,8 @@ const Button = ({ link, text }) => {
 }
 
 
-export default function Card({ project: {name, technologies, image, link, github, description} }) {
+export default function Card({ project: {name, technologies, image, link, github, description}, alternate }) {
+
   return (
     <div>
     <div>
@@ -27,7 +28,7 @@ export default function Card({ project: {name, technologies, image, link, github
         <Button link={link} text='Live Site'/>
         <Button link={github} text='Github' />
       </div>
-      <div className='min-h-[30vh] flex flex-wrap'>
+      <div className={alternate ? 'min-h-[30vh] flex flex-wrap' : 'min-h-[30vh] flex flex-wrap md:flex-row-reverse'}>
         <div className='w-full lg:w-1/2 p-5 bg-[#1a1a1a]'>
           <div className='min-h-full min-w-full'>
             <img src={image} alt={name} />
