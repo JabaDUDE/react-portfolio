@@ -4,9 +4,9 @@ import Layout from './Layout.jsx'
 import './index.css'
 import './App.css'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
-import Home from './components/pages/index.jsx'
-import About from './components/pages/About.jsx'
-import Projects from './components/pages/projects/Projects.jsx'
+import Home from './components/pages/index'
+import About from './components/pages/About'
+import Projects from './components/pages/projects/Projects'
 
 const router = createBrowserRouter(
   createRoutesFromElements(

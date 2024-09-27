@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import img from '../../assets/self/flower-king.jpg'
 
 function About() {
