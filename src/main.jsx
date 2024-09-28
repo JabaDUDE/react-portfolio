@@ -5,7 +5,7 @@ import './index.css'
 import './App.css'
 import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider } from 'react-router-dom'
 import Home from './components/pages/index'
-import About from './components/pages/About'
+import About from './components/pages/About.jsx'
 import Projects from './components/pages/projects/Projects'
 
 const router = createBrowserRouter(
@@ -17,6 +17,7 @@ const router = createBrowserRouter(
     </Route>
   )
 )
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
